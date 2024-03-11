@@ -4,14 +4,12 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CodeIcon from '@mui/icons-material/Code';
-import PlayCircleIcon from '@mui/icons-material/PlayCircle';
+
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import XIcon from '@mui/icons-material/X';
-import Page1 from './Page1';
 import EmailIcon from '@mui/icons-material/Email';
-import {Link} from "react-router-dom"
 import CableIcon from '@mui/icons-material/Cable';
 export default function Page2(){
     const[open,setOpen]=useState(false)
